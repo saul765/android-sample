@@ -1,0 +1,102 @@
+[versions]
+agp = "8.4.0"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.10.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+glide = "4.12.0"
+lifecycle = "2.2.0"
+lifecycleViewmodel = "2.8.2"
+retrofit = "2.9.0"
+interceptor = "4.9.0"
+fragment = "1.8.0"
+fragmentTesting = "1.8.0"
+koin = "3.5.6"
+mockitoInline = "3.12.4"
+mockitoKotlin = "5.3.1"
+coroutines = "1.7.3"
+coroutinesPlayServices = "1.7.3"
+navigation = "2.7.7"
+navigationUi = "2.7.7"
+legacySupportV4 = "1.0.0"
+lifecycleLivedataKtx = "2.8.2"
+recyclerview = "1.3.2"
+room = "2.6.1"
+workManager = "2.9.0"
+roboelectric = "4.9.2"
+junitKtx = "1.1.5"
+paging = "3.1.0"
+testRunner = "1.5.2"
+testRules = "1.5.0"
+coreTesting = "2.1.0"
+compose= "1.1.0"
+acompanist = "0.30.0"
+constraintlayoutCompose = "1.0.1"
+composeWindow = "1.0.0"
+compose_plugin_version = '1.5.10-beta02'
+
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+coreTesting = { group = "androidx.arch.core", name = "core-testing", version.ref = "coreTesting" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+androidx-lifecycle = { group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycle" }
+androidx-lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodel" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+converterGson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+loggingInterceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "interceptor" }
+fragment = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragment" }
+fragmentTesting = { group = "androidx.fragment", name = "fragment-testing", version.ref = "fragmentTesting" }
+koin = { group = "io.insert-koin", name = "koin-android", version.ref = "koin" }
+koinWorkManager = { group = "io.insert-koin", name = "koin-androidx-workmanager", version.ref = "koin" }
+koinTest = { group = "io.insert-koin", name = "koin-test", version.ref = "koin" }
+koinTestJUnit4 = { group = "io.insert-koin", name = "koin-test-junit4", version.ref = "koin" }
+mockitoInline = { group = "org.mockito", name = "mockito-inline", version.ref = "mockitoInline" }
+mockitoKotlin = { group = "org.mockito.kotlin", name = "mockito-kotlin", version.ref = "mockitoKotlin" }
+coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+coroutinesPlayServices = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-play-services", version.ref = "coroutinesPlayServices" }
+navigationFragment = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation" }
+navigationUi = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUi" }
+androidx-legacy-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", version.ref = "legacySupportV4" }
+androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
+androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+room = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+roomCompiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+roomKtx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+workManager = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "workManager" }
+workManagerTesting = { group = "androidx.work", name = "work-testing", version.ref = "workManager" }
+roboelectric = { group = "org.robolectric", name = "robolectric", version.ref = "roboelectric" }
+androidx-junit-ktx = { group = "androidx.test.ext", name = "junit-ktx", version.ref = "junitKtx" }
+paging = { group = "androidx.paging", name = "paging-runtime-ktx", version.ref = "paging" }
+roomPaging = { group = "androidx.room", name = "room-paging", version.ref = "room" }
+testRunner = { group = "androidx.test", name = "runner", version.ref = "testRunner" }
+testRules = { group = "androidx.test", name = "rules", version.ref = "testRules" }
+composeUi = { group = "androidx.compose.ui", name = "ui", version.ref = "compose" }
+composeMaterial = { group = "androidx.compose.material", name = "material", version.ref = "compose" }
+composeUITooling = { group = "androidx.compose.ui", name = "ui-tooling", version.ref = "compose" }
+composeUIToolingPreview = { group = "androidx.compose.ui", name = "ui-tooling-preview", version.ref = "compose" }
+composeConstraintLayout = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "constraintlayoutCompose" }
+composeRuntimeLivedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version.ref = "compose" }
+composeWindow = { group = "androidx.window", name = "window", version.ref = "composeWindow" }
+acompanistThemeAdapterMaterial = { group = "com.google.accompanist", name = "accompanist-themeadapter-material", version.ref = "acompanist" }
+acompanistThemeAdapterMaterial3 = { group = "com.google.accompanist", name = "accompanist-themeadapter-material3", version.ref = "acompanist" }
+composeActivity = { group = "androidx.activity", name = "activity-compose", version.ref = "activity" }
+composeViewModel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "compose" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+compose-gradle-plugin = { id = "org.jetbrains.compose", version.ref = "compose_plugin_version" }

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Sample</string>
+
+    <string name="user_service_base_url">https://user-service.test/api/v2/</string>
+
+    <string name="generic_error">An unexpected error occurred, please try again later</string>
+    <string name="error_no_internet_connection_body">Make sure that the Wi-Fi connection or mobile data is active and try again.</string>
+
+
+    <string name="pokemon_home_title">Pokédex</string>
+    <string name="pokemon_item_content_description">Pokemon Image</string>
+    <string name="pokeball_image_content_description">Pokeball Image</string>
+    <string name="search_bar_text">Search</string>
+
+    <string name="pokemon_worker_notification_title">New Pokemons!</string>
+    <string name="pokemon_worker_notification_body">New Pokemons have been added to the Pokédex, Now you have %1s registered!</string>
+
+    <string name="pokemon_worker_error_notification_title">Pokedex Load Error</string>
+    <string name="pokemon_worker_error_notification_body">An error occurred while trying to update the Pokédex, check you internet connection</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="commerce_name">nombre comercio</string>
+    <string name="department_municipality">departamento</string>
+    <string name="iva_nit_dui">dui\n</string>
+    <string name="attach_document_image">subir imagen</string>
+    <string name="upload_image">subir</string>
+    <string name="contact_phone">telefono</string>
+    <string name="contact_email">email</string>
+
+</resources>
